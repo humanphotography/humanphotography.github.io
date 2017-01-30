@@ -1,9 +1,9 @@
 # Site settings
-title: PHOTORAMA
-email: ""
-description: "Photo Journal"
-url: "http://sunbliss.github.io"
-baseurl: "/photorama"
+title: HUMAN PHOTOGRAPHY
+email: "humanphotography1@gmail.com"
+description: "A community of human photographers"
+url: "http://humanphotography.github.io"
+baseurl: ""
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -15,7 +15,7 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   HUMAN PHOTOGRAPHY
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "http://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "http://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "http://sunbliss.github.io/photorama/about/"
+  - GALLERY: "http://humanphotography.github.io/gallery/"  
+  - JOURNAL: "http://humanphotography.github.io/journal/"
+  - ABOUT: "http://humanphotography.github.io/about/"
 
 # All translation keys
 translations:
