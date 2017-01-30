@@ -1,14 +1,26 @@
 <!DOCTYPE html>
-<html>
-    {% include head.html %}
-    <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<html lang="en">
+
+{% include head.html %}
+
+<head>
+{% if page.url == "/404.html" %}<meta http-equiv="refresh" content="5; url={{ site.baseurl }}/journal" />{% endif %}
+</head>
+
+<body>
+
     {% include nav.html %}
-    {% include header.html %}
-    {% include about.html %}
-    {% include download.html %}
-    {% include contact.html %}
-    {% include map.html %}
+
+    {{ content }}
+
+    {% include search.html %}
+
+    {% include newsletter.html %}
+
     {% include footer.html %}
-    {% include js.html %}
-    </body>
+
+   {% include Scroll_to_Top.html %}  
+
+</body>
+
 </html>
