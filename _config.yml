@@ -3,7 +3,7 @@ title: HUMAN PHOTOGRAPHY
 email: "humanphotography1@gmail.com"
 description: "A community of human photographers"
 url: "http://humanphotography.github.io"
-baseurl: "/home"
+baseurl: ""
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "http://humanphotography.github.io/home/gallery/"  
-  - JOURNAL: "http://humanphotography.github.io/home/journal/"
-  - ABOUT: "http://humanphotography.github.io/home/about/"
+  - GALLERY: "/gallery"  
+  - JOURNAL: "/journal"
+  - ABOUT: "/about"
 
 # All translation keys
 translations:
